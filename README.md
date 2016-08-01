@@ -15,3 +15,6 @@ WMHUD是基于MBProgressHUD二次开发的消息提示库，封装了常用的�
     
     //弹出失败消息
     [WMHUD showFailWithMessage:@"Fail" toView:self.view];
+# 许可证
+WMHUD 使用 MIT 许可证，详情见 LICENSE 文件。
+
