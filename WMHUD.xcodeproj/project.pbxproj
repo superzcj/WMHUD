@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		D72EDDBC1D4B333F00697334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDBB1D4B333F00697334 /* main.m */; };
 		D72EDDBF1D4B333F00697334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDBE1D4B333F00697334 /* AppDelegate.m */; };
-		D72EDDC21D4B333F00697334 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDC11D4B333F00697334 /* ViewController.m */; };
 		D72EDDC51D4B333F00697334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72EDDC31D4B333F00697334 /* Main.storyboard */; };
 		D72EDDC71D4B333F00697334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72EDDC61D4B333F00697334 /* Assets.xcassets */; };
 		D72EDDCA1D4B333F00697334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72EDDC81D4B333F00697334 /* LaunchScreen.storyboard */; };
 		D72EDDD51D4B333F00697334 /* WMHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDD41D4B333F00697334 /* WMHUDTests.m */; };
 		D72EDDE01D4B333F00697334 /* WMHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDDF1D4B333F00697334 /* WMHUDUITests.m */; };
+		D72EDDF01D4B33CF00697334 /* WMHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDEF1D4B33CF00697334 /* WMHUD.m */; };
+		D72EDDF61D4B341900697334 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D72EDDF21D4B341900697334 /* LICENSE */; };
+		D72EDDF71D4B341900697334 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDF41D4B341900697334 /* MBProgressHUD.m */; };
+		D72EDDF81D4B341900697334 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDF51D4B341900697334 /* README.mdown */; };
+		D72EDDFB1D4B345900697334 /* HUDDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72EDDFA1D4B345900697334 /* HUDDemoTableViewController.m */; };
+		D75C99251D4EDD6300A1190A /* 37x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C99211D4EDD6300A1190A /* 37x-Checkmark@2x.png */; };
+		D75C99261D4EDD6300A1190A /* 37x-Checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C99221D4EDD6300A1190A /* 37x-Checkmark@3x.png */; };
+		D75C99271D4EDD6300A1190A /* 37x-Forkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C99231D4EDD6300A1190A /* 37x-Forkmark@2x.png */; };
+		D75C99281D4EDD6300A1190A /* 37x-Forkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75C99241D4EDD6300A1190A /* 37x-Forkmark@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		D72EDDBB1D4B333F00697334 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D72EDDBD1D4B333F00697334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D72EDDBE1D4B333F00697334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D72EDDC01D4B333F00697334 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D72EDDC11D4B333F00697334 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D72EDDC41D4B333F00697334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D72EDDC61D4B333F00697334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D72EDDC91D4B333F00697334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,18 @@
 		D72EDDDB1D4B333F00697334 /* WMHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72EDDDF1D4B333F00697334 /* WMHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMHUDUITests.m; sourceTree = "<group>"; };
 		D72EDDE11D4B333F00697334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72EDDEE1D4B33CF00697334 /* WMHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHUD.h; sourceTree = "<group>"; };
+		D72EDDEF1D4B33CF00697334 /* WMHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHUD.m; sourceTree = "<group>"; };
+		D72EDDF21D4B341900697334 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D72EDDF31D4B341900697334 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D72EDDF41D4B341900697334 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		D72EDDF51D4B341900697334 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		D72EDDF91D4B345900697334 /* HUDDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDDemoTableViewController.h; sourceTree = "<group>"; };
+		D72EDDFA1D4B345900697334 /* HUDDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDDemoTableViewController.m; sourceTree = "<group>"; };
+		D75C99211D4EDD6300A1190A /* 37x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		D75C99221D4EDD6300A1190A /* 37x-Checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Checkmark@3x.png"; sourceTree = "<group>"; };
+		D75C99231D4EDD6300A1190A /* 37x-Forkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Forkmark@2x.png"; sourceTree = "<group>"; };
+		D75C99241D4EDD6300A1190A /* 37x-Forkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "37x-Forkmark@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +119,13 @@
 		D72EDDB91D4B333F00697334 /* WMHUD */ = {
 			isa = PBXGroup;
 			children = (
+				D72EDDF11D4B341900697334 /* MBProgressHUD */,
+				D72EDDED1D4B335800697334 /* WMHUD */,
 				D72EDDBD1D4B333F00697334 /* AppDelegate.h */,
 				D72EDDBE1D4B333F00697334 /* AppDelegate.m */,
-				D72EDDC01D4B333F00697334 /* ViewController.h */,
-				D72EDDC11D4B333F00697334 /* ViewController.m */,
 				D72EDDC31D4B333F00697334 /* Main.storyboard */,
+				D72EDDF91D4B345900697334 /* HUDDemoTableViewController.h */,
+				D72EDDFA1D4B345900697334 /* HUDDemoTableViewController.m */,
 				D72EDDC61D4B333F00697334 /* Assets.xcassets */,
 				D72EDDC81D4B333F00697334 /* LaunchScreen.storyboard */,
 				D72EDDCB1D4B333F00697334 /* Info.plist */,
@@ -138,6 +158,38 @@
 				D72EDDE11D4B333F00697334 /* Info.plist */,
 			);
 			path = WMHUDUITests;
+			sourceTree = "<group>";
+		};
+		D72EDDED1D4B335800697334 /* WMHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D75C99201D4EDD4700A1190A /* Images */,
+				D72EDDEE1D4B33CF00697334 /* WMHUD.h */,
+				D72EDDEF1D4B33CF00697334 /* WMHUD.m */,
+			);
+			path = WMHUD;
+			sourceTree = "<group>";
+		};
+		D72EDDF11D4B341900697334 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D72EDDF21D4B341900697334 /* LICENSE */,
+				D72EDDF31D4B341900697334 /* MBProgressHUD.h */,
+				D72EDDF41D4B341900697334 /* MBProgressHUD.m */,
+				D72EDDF51D4B341900697334 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D75C99201D4EDD4700A1190A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D75C99211D4EDD6300A1190A /* 37x-Checkmark@2x.png */,
+				D75C99221D4EDD6300A1190A /* 37x-Checkmark@3x.png */,
+				D75C99231D4EDD6300A1190A /* 37x-Forkmark@2x.png */,
+				D75C99241D4EDD6300A1190A /* 37x-Forkmark@3x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +297,12 @@
 			files = (
 				D72EDDCA1D4B333F00697334 /* LaunchScreen.storyboard in Resources */,
 				D72EDDC71D4B333F00697334 /* Assets.xcassets in Resources */,
+				D75C99261D4EDD6300A1190A /* 37x-Checkmark@3x.png in Resources */,
+				D72EDDF61D4B341900697334 /* LICENSE in Resources */,
+				D75C99251D4EDD6300A1190A /* 37x-Checkmark@2x.png in Resources */,
+				D75C99281D4EDD6300A1190A /* 37x-Forkmark@3x.png in Resources */,
 				D72EDDC51D4B333F00697334 /* Main.storyboard in Resources */,
+				D75C99271D4EDD6300A1190A /* 37x-Forkmark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D72EDDC21D4B333F00697334 /* ViewController.m in Sources */,
 				D72EDDBF1D4B333F00697334 /* AppDelegate.m in Sources */,
+				D72EDDF71D4B341900697334 /* MBProgressHUD.m in Sources */,
+				D72EDDF81D4B341900697334 /* README.mdown in Sources */,
 				D72EDDBC1D4B333F00697334 /* main.m in Sources */,
+				D72EDDFB1D4B345900697334 /* HUDDemoTableViewController.m in Sources */,
+				D72EDDF01D4B33CF00697334 /* WMHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +556,7 @@
 				D72EDDE61D4B333F00697334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D72EDDE71D4B333F00697334 /* Build configuration list for PBXNativeTarget "WMHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				D72EDDE91D4B333F00697334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D72EDDEA1D4B333F00697334 /* Build configuration list for PBXNativeTarget "WMHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				D72EDDEC1D4B333F00697334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

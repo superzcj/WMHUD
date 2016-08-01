@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HUDDemoTableViewController.h
 //  WMHUD
 //
 //  Created by zhangchaojie on 16/7/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HUDDemoTableViewController : UITableViewController
 
 @end
-
